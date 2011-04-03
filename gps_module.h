@@ -9,12 +9,12 @@ QTM_USE_NAMESPACE
 
 class gps_module : public QObject
 {
- //   Q_OBJECT
 public:
     gps_module(QObject *parent);
+    ~gps_module();
 
 private:
-    //QGeoPositionInfoSource *source;
+    QGeoPositionInfoSource *source;
     QObject *parent;
 
     void set_up();

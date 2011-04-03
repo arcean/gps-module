@@ -16,3 +16,8 @@ void gps_module::set_up()
         source->startUpdates();
     }
 }
+
+gps_module::~gps_module()
+{
+
+}
